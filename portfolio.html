@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script>
+</head>
+<body>
+    <div id="main">
+   <header>
+    <nav>
+        <div class="left">
+            <img src="../image/chlobo.png"></div>
+        <div class="right">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+   </header>
+   <div class="header-text">
+    <p>Web Developer</p>
+    <h1>Hii, I'm <span>Aman</span> </h1>
+  </div>
+</div>
+<!------about---------------------------->
+<div class="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="../image/me.png" alt="sec img">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <P>
+                    Hello everyone,<br> I'm Aman Kr Sah,  A Front-End Web Developer.<br>
+                    I'm passionate about Javascript.<br>
+                    Currently pursuing BCA from cimage collage patna.
+                <P>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>Front-End development</li>
+                           <li><span>Computer network</span><br>Beginners</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>web developpment</span><br>Cimge group of institution</li>
+                            <li><span>computer network</span><br>Cimge group of institution</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>BCA</li>
+                            
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------services-->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <img src="../image/web.png" width="50px" height="50px">
+                <h2>Web development</h2>
+                <p>
+                    HTML, CSS, Javascript, Bootstrap, Php, Mysql.<br><a href="#">Learn more</a>
+                </p>
+            </div>
+            <div>
+                <img src="../image/computer.png" width="50px" height="50px">
+                <h2>Computer network</h2>
+                <p>
+                    Basic knowlede<br><a href="#">Learn more</a>
+                </p>
+            </div>
+            <div>
+                <h2>Computer network</h2>
+                <p>
+                    Basic knowlede<br><a href="#">Learn more</a>
+                </p>
+            </div>
+            <div>
+                <h2>Computer network</h2>
+                <p>
+                    Basic knowledge<br><a href="#">Learn more</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------portfolio-->
+<div class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="../image/boy.png">
+            </div>
+        </div>
+            <div class="work">
+                <img src="../image/boy.png">
+            </div>
+            <div class="work">
+                <img src="../image/boy.png">
+            </div>
+            <div class="work">
+                <img src="../image/boy.png">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
