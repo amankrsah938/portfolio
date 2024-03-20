@@ -209,10 +209,10 @@ margin-bottom: 20px;
     font-size: 18px;
     line-height: 60px;
     background:#fff;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-
+    text-align: center;
 }
 
 
