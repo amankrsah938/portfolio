@@ -15,7 +15,6 @@ html,body{
     background-position: right;
     width: 100%;
     height: 100vh;
-    background-image: url(portfolio.png);
 }
 .left img{
     width: 100%;
@@ -55,17 +54,29 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 20%;
-    font-size: 30px;
+   display: flex;
+   justify-content: space-around;
+   margin: 23px 0;
     color: #fff;
 }
-.header-text h1{
+.header-text div{
+    width: 40%;
+}
+.leftsection{
+    margin-top: 140px;
+}
+.leftsection h1{
     font-size: 60px;
     margin-top: 20px;
 }
-.header-text h1 span{
+.leftsection h1 span{
     color: rgb(205, 50, 50);
 }
+#element{
+    color: rgb(22, 207, 194);
+    font-size: 50px;
+}
+
 <!--------About--------------------------->
 .about{
     background-color: rgb(35, 193, 135);
